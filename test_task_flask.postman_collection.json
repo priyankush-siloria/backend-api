@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "ab0cd8f7-3a09-4b3f-a8fe-265d45a2bc6a",
+		"name": "test_task_flask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/api/v1/create_user",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer B1n0FlddHVnfBLeAkC",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"user2\",\n\"password\": \"demo5555\",\n\"age\":22}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/v1/create_user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"create_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
